@@ -257,14 +257,7 @@ def increase_wave():
     player.flash_start_time = pygame.time.get_ticks()
     player.last_flash_time = player.flash_start_time
 
-    # print(f'Upgrade {wave}:')
-    # print(f'  Speed: {player.speed:.2f}')
-    # print(f'  Laser Cooldown: {player.cooldown_duration:.2f}')
-    # print(f'  Lasers: {player.lasers:.2f}')
-    # print(f'  Meteor Spawn Interval: {meteor_spawn_interval} ms')
-
     wave += 1
-
 
 pygame.init()
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
